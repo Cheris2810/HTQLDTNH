@@ -1,0 +1,43 @@
+.nav>li{
+  /* float: right;
+   margin-right: 5px;*/
+ }
+ 
+ .nav>li>a{
+/*   color: black;*/
+ }
+ 
+ .nav li{
+   position: relative;
+   list-style:none;
+ }
+ 
+ .nav li a{
+/*   padding: px;*/
+   line-height: 15px;
+   display: inline-block;
+   font-family: "Comic Sans MS";
+   font-size: small;
+ }
+
+ 
+ .nav .sub-menu{
+   display: none;
+   position: absolute;
+   top: 0;
+   left: 0rem;
+   width: 0px;
+   background-color: #FFB6C1;
+   border: 1px solid #FFB6C1;
+   border-radius: 0.5rem;
+ }
+ 
+ .nav li:hover>.sub-menu{
+   display: block;
+ }
+ 
+ .nav>li>.sub-menu{
+   top: 40px;
+   left: 0rem;
+   width: 11rem;
+ }

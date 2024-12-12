@@ -1,0 +1,219 @@
+:root{
+    --green-color:#04AA6D;
+    --font-family-style:Arial, Helvetica, sans-serif;
+    --box-shadow-color:#29627e;
+    /* --darkblue-color:#0d3595;*/
+} 
+
+
+
+.title{
+    margin-top: 6rem;
+    width: 70%;
+    height: 7vh;
+}
+
+.title h3{
+    /* display: inline-block; */
+    font-family: var(--font-family-style);
+    color: var(--blue-color);
+    width: 100%;
+    height: 7vh;
+    border: 5px var(--blue-color);
+    border-style: none none dashed none;
+    /* margin-bottom: 1rem; */
+    margin-top: 6rem;
+    margin-left: 12rem;
+    font-size: 1.6rem;
+   
+
+}
+.form__add {
+    width: 70%;
+    height: 50vh;
+
+}
+
+.wrapper__form{
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 100%;
+    margin-top: 3.5rem;
+    margin-left: 12rem;
+    text-align: center;
+   
+    background-color: rgb(225, 223, 223);
+    font-family: var(--font-family-style);
+    font-weight: 800;
+    color:white;
+}
+.area__item{
+    width: 100%;
+    border: 3px grey;
+    border-style: none none dotted none;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.area__item--one{
+    border: 1px solid black;
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--green-color);
+    
+    /* padding-left: 2rem; */
+}
+.area__item2{
+    width: 100%;
+    border: 3px grey;
+    border-style: none none none none;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.area__item--two{
+    border: 1px solid black;
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--green-color);
+    
+    /* padding-left: 2rem; */
+}
+/* .area__item2:nth-child(even){
+    background-color: #f2f2f2;
+} */
+.area__input{
+    margin-top: 1rem;
+    width: 8%;
+    height: 5vh;
+    /* border: 2px rgb(23, 23, 23);
+    border-style: none none dotted none; */
+}
+
+.area__input input{
+    display: inline-block;
+    font-size: 1rem;
+    width: 100%;
+    height: 90%; 
+    color: rgb(29, 28, 28);
+    /*box-shadow: inset 0.1rem 0 0.4rem 0.3rem rgb(70, 70, 71);*/
+    box-shadow: inset 0.1rem 0 0.5rem 0.4rem rgb(70, 70, 71);
+    font-family: var(--font-family-style);
+    cursor: pointer; 
+    transition: transform .2s; 
+}
+
+.area__input input:hover{
+    transform: scale(1.1); 
+}
+.save-area__button{
+    margin-top: 1rem;
+    width: 8%;
+    height: 5vh;
+}
+
+.save-area__button input{
+    display: inline-block;
+    font-size: 1rem;
+    width: 100%;
+    height: 90%; 
+    color: rgb(241, 239, 239);
+    border: 0.6rem #4990b3;
+    border-style: none none solid none;
+    background-color: #29627e;
+    font-family: var(--font-family-style);
+    cursor: pointer; 
+    transition: transform .2s; 
+
+}
+
+.save-area__button input:hover{
+    transform: scale(1.1); 
+}
+
+.error_area{
+    width: 25%;
+    margin-left: 2.5rem;
+    font-size: 0.6rem;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(53, 61, 179);
+
+}
+
+.alert-add{
+    width: 99%;
+    height: 8vh;
+     margin-top: 2.5rem;
+    margin-left: 12rem; 
+    font-family: var(--font-family-style);
+    font-size: 1rem;
+    font-weight: 400;
+    
+    /* padding-top: 0.2rem; */
+}
+    /* background-color: rgb(255, 83, 83); */
+    /* text-align: center;
+    box-shadow: inset 0.5rem 0 0.5rem 0.5rem rgb(255, 83, 83) ; */
+    /* color: rgb(255, 83, 83); */
+/* } */ 
+
+ .back__area {
+ 
+    margin-top: 0.9rem;
+    margin-left: 69rem;
+    padding-top: 0.2rem;
+    width: 5rem;
+    height: 4.5vh;
+    box-shadow: inset 0.2rem 0 0.5rem 0.5rem rgb(255, 83, 83) ;
+    text-align: center;
+    font-family: var(--font-family-style);
+    cursor: pointer; 
+    transition: transform .2s; 
+    padding-top: 0.3rem;
+    
+}
+
+.back__area a{
+    width: 100%;
+    height: 100%;
+    color: rgb(11, 11, 11);
+}
+
+.back__area:hover {
+    transform: scale(1.1); 
+} 
+
+.back-area {
+    margin-top: 0.9rem;
+    margin-left: 69rem;
+    padding-top: 0.2rem;
+    width: 5rem;
+    height: 4.5vh;
+    border: 0.6rem rgb(255, 83, 83);
+    border-style: none none solid none;
+    background-color:rgb(238, 32, 32) ;
+    color: white;
+    text-align: center;
+    font-family: var(--font-family-style);
+    cursor: pointer; 
+    transition: transform .2s; 
+    padding-top: 0.3rem;
+}
+
+.back-area a{
+    color: white;
+}
+
+.back-area:hover {
+    transform: scale(1.1); 
+} 

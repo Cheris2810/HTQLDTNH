@@ -1,0 +1,95 @@
+
+
+.menu-index{
+    margin-top: 0.5rem;
+}
+
+.side_bar {
+    background-color: #1a87db !important;
+   
+}
+
+/* .usecase1::hover{
+    background-color: #1a87db;
+} */
+
+    /* Hover styles for the navigation menu items */
+    .nav-item:hover,
+    .nav-link:hover,
+    .dropdown:hover .dropdown-toggle,
+    .dropdown-item:hover {
+        background-color: #05294c; /* Change the background color on hover */
+    
+    }
+    .nav-item,
+    .nav-link
+{
+       
+        text-align: center !important;
+    }
+
+  /* Active styles for the "Đăng ký" dropdown menu */
+  .dropdown.show .dropdown-menu .nav-link,
+  .dropdown.show .dropdown-menu .nav-link:hover {
+      background-color: #f8f9fa; /* Change the background color when active (clicked) */
+  }
+
+  /* .child-item {
+    transition: background-color 0.3s ease; /* Thêm hiệu ứng chuyển đổi */
+  /* }
+  
+  .child-item.active {
+    background-color: #f8f9fa; /* Màu nền khi mục con được chọn */
+  /* } */ 
+  .chill-item.active {
+    color: red; /* Màu sắc mới cho mục con */
+}
+
+.swiper {
+    margin-top: 7rem;
+    width: 50%;
+    height: 60%;
+    margin-left: 4rem;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+  }
+
+  .swiper__slide--images {
+    display: block;
+    /*width: 100%;
+    height: 100%;*/
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
+    /* animation: imageAnimation 6s infinite; */
+    
+  }
+
+  table{
+    width:70%;
+    margin-left: 25rem;
+    text-align: center;
+  }
+
+  tr,td,th {
+    padding: 10px;
+    border: 3px solid;
+  }
+
+  h1.phi_phong{
+    margin-left:53rem;
+    font-size: 40px;
+    font-weight: bold;
+    color:#0000FF;
+  }
+
+
+  

@@ -1,0 +1,23 @@
+
+
+.update-success{
+    width: 99%;
+    height: 8vh;
+     margin-top: 2.5rem;
+    margin-left: 12rem; 
+    font-family: var(--font-family-style);
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+
+.update-error{
+    width: 99%;
+    height: 8vh;
+     margin-top: 2.5rem;
+    margin-left: 12rem; 
+    font-family: var(--font-family-style);
+    font-size: 1rem;
+    font-weight: 400;
+    
+}

@@ -1,0 +1,187 @@
+
+:root {
+    --blue-color:#0d3595;
+    --font-family-style:Arial, Helvetica, sans-serif;
+    
+}
+
+.main {
+    width: 70rem;
+    height: 80vh;
+    margin-left: 15rem;
+    margin-top: 7rem;
+    /* border: ; */
+}
+.main__container{
+    width: 80%;
+    height: 100%;
+    /* border: ; */
+}
+
+.main__container--title{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    height: 13vh;
+    margin-bottom: 1rem;
+    margin-top: 6rem;
+    margin-left: 12rem;
+   
+}
+
+.main__container--title h2{
+    height: 60%;
+    border: 5px  #0d3595;
+    border-style: none none dashed none;
+    
+}
+
+.main__container--table{
+    width: 70%;
+    height: 40vh;
+    margin-left: 12rem;
+    /* margin-top: 1rem; */
+}
+.table__area {
+    font-family: var(--font-family-style);
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+   
+  }
+
+.table__area th{
+    background-color: #04AA6D;
+    color: white;
+    text-align: center;
+    height: 30%;
+    border: 1px solid #ddd;
+}
+
+.table__area td{
+    border: 1px solid #ddd;
+    text-align: center;
+    
+  }
+.table__area .col__action{
+    text-align: left;
+    padding-left: 2rem;
+    width: 22%;
+} 
+.table__area tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+  
+.table__areatr:hover {
+    background-color: #ddd;
+}
+
+.area__link--delete{
+    font-family: var(--font-family-style);
+    font-size: 0.7rem;
+    display: inline-block;
+    width: 2.5rem;
+    height: 1.3rem;
+    padding-top: 0.1rem;
+    text-align: center;
+    background-color: var(--red-color);
+    color: rgb(242, 242, 242);
+    border: 1px solid white;
+    border-radius: 0.3rem;
+    cursor: pointer; 
+     /* cursor: url("https://cdn-icons-png.flaticon.com/128/3119/3119214.png") ,auto;
+     */
+    transition: transform .2s; 
+
+} 
+
+ .area__link--delete:hover {
+    transform: scale(1.2); 
+}
+
+
+.area__link--edit:hover {
+    transform: scale(1.2); 
+} 
+.area__link--edit{
+    font-family: var(--font-family-style);
+    font-size: 0.7rem;
+    display: inline-block;
+    width: 2.5rem;
+    height: 1.3rem;
+    padding-top: 0.1rem;
+    background-color:rgb(70, 70, 70);
+    color: rgb(242, 242, 242);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0.3rem; 
+    text-align: center;
+    cursor: pointer;
+    transition: transform .2s;  
+}
+.main__container--add{
+    width:40%;
+  
+}
+
+#add__area--icon{
+    width: 5%;
+    transition: transform .2s; 
+    margin-bottom: 0.5rem;
+
+
+}
+
+#add__area--icon:hover {
+    transform: scale(1.2); 
+}
+
+.tool__area{
+    width: 79% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 12rem;
+}
+
+.tool__area--search{
+    display: flex;
+    width: 60%;
+    margin-left: 6rem;
+}
+
+.form__search{
+    width: 50%;
+    margin-left: 3rem;
+}
+
+
+.search{
+    width: 100%;
+    /* padding-left: 10rem; */
+}
+
+.search__icon{
+    padding: 0 1rem;
+}
+
+/* .button__search{
+    width: 40%;
+    height: 2rem;
+    margin-left: 3rem;
+} */
+
+.fa-square-plus{
+    border: 1px solid rgb(209, 211, 209);
+    background-color: rgb(209, 211, 209);
+    border-radius: 0.2rem;
+    width: 82%;
+    font-size: 1.2rem;
+}
+
+
+    .swal2-borderless .swal2-modal {
+        background-color:#0d3595;
+        color: white;
+        border: 2px solid black;
+        border-radius: 1rem;
+    };
+
